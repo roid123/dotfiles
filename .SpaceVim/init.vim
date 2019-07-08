@@ -1,12 +1,14 @@
 "=============================================================================
 " init.vim --- Entry file for neovim
-" Copyright (c) 2016-2017 Wang Shidong & Contributors
+" Copyright (c) 2016-2019 Wang Shidong & Contributors
 " Author: Wang Shidong < wsdjeg at 163.com >
 " URL: https://spacevim.org
 " License: GPLv3
 "=============================================================================
 
 execute 'source' fnamemodify(expand('<sfile>'), ':h').'/config/main.vim'
+
+lua require('spacevim').bootstrap()
 
 inoremap jj <ESC>
 
@@ -57,3 +59,5 @@ vnoremap * "zy:let @/ = @z<CR>n
 autocmd FileType go nnoremap <silent> ,gc :<C-u>GoCoverageToggle<CR>
 autocmd FileType go nnoremap <silent> ,gi :<C-u>GoImports<CR>
 autocmd FileType go inoremap <silent><expr><buffer> <C-]> empty(v:completed_item) ? "" : split(v:completed_item.info, v:completed_item.word)[1]
+
+let g:indentLine_setConceal = 0
