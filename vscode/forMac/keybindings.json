@@ -1,0 +1,15 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "shift+cmd+;",
+        "command": "workbench.action.zoomIn"
+    },
+    {
+        "key": "cmd+=",
+        "command": "-workbench.action.zoomIn"
+    },
+    {
+        "key": "ctrl+f12",
+        "command": "go.browse.packages"
+    }
+]

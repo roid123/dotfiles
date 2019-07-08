@@ -1,0 +1,60 @@
+{
+    "editor.fontFamily": "Ricty",
+    "editor.fontSize": 14,
+    "editor.minimap.showSlider": "always",
+
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+
+    "[javascript]": {
+        "editor.tabSize": 2
+    },
+    "[typescript]": {
+        "editor.tabSize": 2
+    },
+    "[less]": {
+        "editor.tabSize": 2
+    },
+    "[scss]": {
+        "editor.tabSize": 2
+    },
+    "[javascriptreact]": {
+        "editor.tabSize": 2
+    },
+    "[typescriptreact]": {
+        "editor.tabSize": 2
+    },
+
+    "go.gopath": "FIXME",
+    // Include unimported packages in auto-complete suggestions.
+    "go.autocompleteUnimportedPackages": true,
+
+    "window.zoomLevel": -1,
+    "workbench.editor.enablePreview": false,
+    "workbench.startupEditor": "newUntitledFile",
+
+    // Use system clipboard for unnamed register.
+    "vim.useSystemClipboard": true,
+    "extensions.ignoreRecommendations": false,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "files.autoGuessEncoding": true,
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "Hybrid Next Plus",
+    "gitlens.views.fileHistory.enabled": true,
+    "gitlens.views.lineHistory.enabled": true,
+    "javascript.validate.enable": false,
+    "eslint.alwaysShowStatus": true,
+    "files.insertFinalNewline": true,
+
+    "go.inferGopath": true,
+    "go.useLanguageServer": true,
+    "go.formatTool": "goimports",
+    "terminal.integrated.fontFamily": "Ricty for Powerline"
+}
+
