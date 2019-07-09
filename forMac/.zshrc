@@ -148,9 +148,12 @@ alias rsync='rsync --iconv=UTF-8-MAC,UTF-8'
 alias svim='vim -u ~/.SpaceVim/vimrc'
 alias nvim='nvim -u ~/.SpaceVim/init.vim'
 alias modgo='GO111MODULE=on go'
+alias dc='docker-compose'
 
 # for rbenv
 eval "$(rbenv init -)"
 
 # change ls color
-#export LSCOLORS=gxfxcxdxbxegedabagacad
+export LSCOLORS=gxfxcxdxbxegedabagacad
+alias ls='ls --color=auto'
+alias lsf='ls --color=auto -F'
